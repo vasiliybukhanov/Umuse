@@ -1,0 +1,27 @@
+﻿.admin-homepage-body {
+    padding-top: 5em;
+}
+
+.container {
+    padding-top: 3em;
+}
+
+.card {
+    background-color: #666699;
+    min-height: 200px;
+    width: 100%;
+    color: black;    
+}
+
+
+    .card:hover {
+        background-color: #666699;
+        color: white;
+    }
+
+.card-body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

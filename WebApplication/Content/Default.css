@@ -1,0 +1,19 @@
+﻿html, body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+.card {
+    background-color: #666699;
+    min-height: 400px;
+    min-width: 420px;
+}
+
+.signInButton {
+    background-color: orange;
+}

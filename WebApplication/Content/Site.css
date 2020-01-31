@@ -1,0 +1,25 @@
+﻿/* Move down content because we have a fixed navbar */
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding: 0;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input {
+    min-width: 270px;    
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}

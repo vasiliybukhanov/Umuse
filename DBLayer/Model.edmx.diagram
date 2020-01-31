@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9934af40aa074f42875e117bf0bcc631" Name="Diagram1">
+        <EntityTypeShape EntityType="UmuseModel.Album" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmuseModel.Artist" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmuseModel.Genre" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmuseModel.Playlist" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmuseModel.Track" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmuseModel.UserProfile" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="UmuseModel.FK_Album_Artist" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.FK_Album_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.FK_Track_Album" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.FK_Track_Artist" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.FK_Playlist_Creator" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.PlaylistTrack" ManuallyRouted="false" />
+        <AssociationConnector Association="UmuseModel.UserPlaylist" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

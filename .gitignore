@@ -1,0 +1,9 @@
+# build artifacts
+**/bin
+**/obj
+
+# nuget
+**/packages
+
+# vs cache/options
+**/.vs
