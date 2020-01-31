@@ -13,5 +13,5 @@ setup guide:
    "user" - "password" / "admin" - "password"
 
 --
-what's done for now: sign in as admin -> click "Genres" pn edit screen ->
+what's done for now: sign in as admin -> click "Genres" on edit screen ->
 -> populating table with data from the server
